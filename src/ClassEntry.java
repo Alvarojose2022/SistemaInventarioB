@@ -15,7 +15,7 @@ public class ClassEntry extends  ClasePadre{
         setCode(code);
         setName(name);
         setStock_quantity(getStock_quantity()+quantity);
-        this.quantity=quantity;
+        this.quantity = quantity;
         this.date=date;
     }
 
@@ -36,9 +36,9 @@ public class ClassEntry extends  ClasePadre{
         setName(name);
         this.quantity =quantity;
         setStock_quantity(getStock_quantity() - this.quantity);
-        this.price=precio;
+        this.price = precio;
         this.date = date;
-        total =quantity * precio;
+        total = quantity * precio;
     }
 
     @Override
